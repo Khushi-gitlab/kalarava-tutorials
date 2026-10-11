@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalarava Tutorials | Chitradurga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header>
+        <div class="navbar">
+            <div class="logo-area">
+                <img src="logo.png" alt="Kalarava Logo">
+                <div>
+                    <h2>KALARAVA</h2>
+                    <p>TUTORIALS</p>
+                </div>
+            </div>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#classes">Programs</a>
+                <a href="#features">Why Us</a>
+                <a href="#results">Results</a>
+                <a href="#contact">Contact</a>
+            </nav>
+			
+			<button class="menu-toggle" id="menuToggle"
+			 aria-label="Open navigation menu"
+			  aria-expanded="false">☰</button>
+
+            <a href="#contact" class="nav-button">Enroll Now</a>
+        </div>
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero" id="home">
+		
+		<div class="hero-slideshow">
+		    <img src="images/Photo1.jpeg" alt="Kalarava Tutorials">
+		    <img src="images/photo2.jpeg" alt="Kalarava Tutorials">
+		    <img src="images/photo3.jpeg" alt="Kalarava Tutorials">
+		    <img src="images/photo4.jpeg" alt="Kalarava Tutorials">
+		    <img src="images/photo5.jpeg" alt="Kalarava Tutorials">
+		    <img src="images/photo6.jpeg" alt="Kalarava Tutorials">
+		    <img src="images/photo7.jpeg" alt="Kalarava Tutorials">
+		    <img src="images/photo8.jpeg" alt="Kalarava Tutorials">
+		</div>
+		
+        <div class="hero-content">
+
+            <div class="welcome-badge">
+                ✨ Welcome to Kalarava Tutorials
+            </div>
+
+            <h1>
+                Admissions Open<br>
+                <span>2026–27</span>
+            </h1>
+
+            <p class="hero-text">
+                Quality tuition and academic support for students from
+                <strong>Class 1 to Class 10</strong>, along with
+                competitive exam coaching.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#classes" class="primary-button">📚 Explore Programs</a>
+                <a href="#contact" class="secondary-button">✨ Enquire Now</a>
+            </div>
+
+            <div class="hero-highlights">
+                <div><span>✓</span> Regular Classes</div>
+                <div><span>✓</span> Individual Attention</div>
+                <div><span>✓</span> Weekly Tests</div>
+            </div>
+
+        </div>
+
+		
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about" id="about">
+        <div class="section-title">
+            <p>ABOUT US</p>
+            <h2>Welcome to <span>Kalarava Tutorials</span></h2>
+        </div>
+
+        <div class="about-content">
+            <div class="about-image">
+                <img src="logo.png" alt="Kalarava Logo">
+            </div>
+
+            <div class="about-text">
+                <h3>Academic support for students in Chitradurga.</h3>
+
+                <p>
+                    Kalarava Tutorials, Chitradurga provides tuition and
+                    academic support for students from Class 1 to Class 10.
+                </p>
+
+                <p>
+                    The programs include regular tuition for CBSE and State
+                    students, SSLC preparation, and coaching for Navodaya,
+                    Sainik and Murarji entrance examinations.
+                </p>
+
+                <p>
+                    The programs also include regular tests, individual
+                    student attention, activity-based learning and parent
+                    meetings.
+                </p>
+
+                <a href="#contact" class="primary-button">Admission Enquiry</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= PROGRAMS ================= -->
+    <section class="classes" id="classes">
+        <div class="section-title">
+            <p>OUR PROGRAMS</p>
+            <h2>Courses & <span>Coaching</span></h2>
+            <p class="description">
+                Choose the program that suits the student's academic needs.
+            </p>
+        </div>
+
+        <div class="class-container">
+
+            <!-- 10TH CLASS -->
+            <div class="class-card">
+                <div class="class-icon">🎓</div>
+                <h3>10th Class Regular Tuition</h3>
+                <h4>CBSE | State</h4>
+                <p>
+                    Maths, Science and English subject classes,
+                    along with Language & Grammar.
+                </p>
+                <p><strong>Morning & Evening Classes</strong></p>
+                <p><strong>Starts: 26th April 2026</strong></p>
+                <button onclick="showMessage('10th Class Regular Tuition')">
+                    View Details
+                </button>
+            </div>
+
+
+            <!-- 1ST TO 9TH -->
+            <div class="class-card featured">
+                <div class="class-icon">📚</div>
+                <h3>1st – 9th Class Regular Tuition</h3>
+                <h4>CBSE | State</h4>
+                <p>
+                    All subject classes with theory and activity-based
+                    learning.
+                </p>
+                <p>
+                    Regular student development activities and
+                    parent meetings.
+                </p>
+                <p><strong>Starts: 25th May 2026</strong></p>
+                <button onclick="showMessage('1st to 9th Class Regular Tuition')">
+                    View Details
+                </button>
+            </div>
+
+
+            <!-- COMPETITIVE EXAMS -->
+            <div class="class-card">
+                <div class="class-icon">🏆</div>
+                <h3>Competitive Exam Coaching</h3>
+                <h4>Navodaya | Sainik | Murarji</h4>
+                <p>
+                    Coaching available in both online and offline modes.
+                </p>
+                <p>
+                    Weekly tests & exams and individual student attention.
+                </p>
+                <p><strong>Hostel Available</strong></p>
+                <p><strong>Starts: 1st May 2026</strong></p>
+                <button onclick="showMessage('Competitive Exam Coaching')">
+                    View Details
+                </button>
+            </div>
+			<!-- NMMS SCHOLARSHIP COACHING -->
+			<div class="class-card">
+
+			    <div class="class-icon">🎓</div>
+
+			    <h3>NMMS Scholarship Exam Coaching</h3>
+
+			    <h4>National Means-cum-Merit Scholarship</h4>
+
+			    <p>
+			        Special coaching for students preparing
+			        for the NMMS scholarship examination.
+			    </p>
+
+			    <p>
+			        Mental Ability Test (MAT) and Scholastic
+			        Aptitude Test (SAT) preparation.
+			    </p>
+
+			    <p>
+			        <strong>Regular Practice &amp; Model Examinations</strong>
+			    </p>
+
+			    <button onclick="showMessage('NMMS Scholarship Exam Coaching')">
+			        View Details
+			    </button>
+
+			</div>
+
+
+            <!-- SSLC SUPPORT -->
+            <div class="class-card">
+                <div class="class-icon">📝</div>
+                <h3>SSLC Repeat Student Support</h3>
+                <h4>All Subjects</h4>
+                <p>
+                    Academic support for students who need additional
+                    preparation after SSLC results.
+                </p>
+                <p><strong>Classes start from April 25th</strong></p>
+                <button onclick="showMessage('SSLC Repeat Student Support')">
+                    View Details
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= WHY KALARAVA ================= -->
+    <section class="features" id="features">
+        <div class="section-title">
+            <p>WHY KALARAVA?</p>
+            <h2>Learning Made <span>Better</span></h2>
+        </div>
+
+        <div class="feature-container">
+
+            <div class="feature-card">
+                <div class="feature-icon">👩‍🏫</div>
+                <h3>Individual Attention</h3>
+                <p>
+                    Individual student attention as mentioned in the
+                    competitive exam coaching program.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📖</div>
+                <h3>Activity-Based Learning</h3>
+                <p>
+                    Theory and activity-based learning for students
+                    from 1st to 9th class.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📝</div>
+                <h3>Regular Tests</h3>
+                <p>
+                    Weekly tests and exams are part of the competitive
+                    exam coaching program.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">👨‍👩‍👧</div>
+                <h3>Parent Meetings</h3>
+                <p>
+                    Parent meetings and student development activities
+                    are included in the regular tuition program.
+                </p>
+            </div>
+
+        </div>
+    </section>
+	<!-- ================= STUDY MATERIALS ================= -->
+	<section class="study-materials" id="study-materials">
+
+	    <div class="section-title">
+	        <p>STUDY MATERIALS</p>
+	        <h2>Learn <span>Better</span></h2>
+	        <p class="description">
+	            Access useful educational resources and official Karnataka Government study materials.
+	        </p>
+	    </div>
+
+	    <div class="study-material-container">
+
+	        <div class="study-material-card">
+
+	            <div class="study-icon">📚</div>
+
+	            <h3>Karnataka Textbooks</h3>
+
+	            <p>
+	                Access textbooks provided through the official Karnataka Government
+	                textbooks portal.
+	            </p>
+
+	            <a href="https://textbooks.karnataka.gov.in/textbooks/kn#"
+	               target="_blank"
+	               rel="noopener noreferrer"
+	               class="primary-button">
+	                Open Textbooks ↗
+	            </a>
+
+	        </div>
+
+			    
+
+			    <!-- 2026 Question Papers -->
+			    <div class="study-material-card">
+
+			        <div class="study-icon">📄</div>
+
+			        <h3>2026 Question Papers</h3>
+
+			        <p>
+			            Access the 2026 question papers available through the
+			            Karnataka Government education portal.
+			        </p>
+
+			        <a href="https://kseeb.karnataka.gov.in/QP2026/"
+			           target="_blank"
+			           rel="noopener noreferrer"
+			           class="primary-button">
+			            Open Question Papers ↗
+			        </a>
+
+			    </div>
+
+			</div>
+		
+
+	</section>
+
+
+    <!-- ================= RESULTS ================= -->
+    
+
+	<section class="about" id="results-section">
+        <div class="section-title">
+            <p>RESULTS & ACHIEVEMENTS</p>
+            <h2>Our <span>Results</span></h2>
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <h3>SSLC Results</h3>
+                <p>
+                    The 2025–26 batch is mentioned as having successful
+                    results in SSLC Exam 1.
+                </p>
+                <p>
+                    The 2024–25 batch is mentioned as having successful
+                    results in SSLC Exam 1, Exam 2 and Exam 3.
+                </p>
+            </div>
+        </div>
+    </section>
+	
+
+	<!-- ================= STUDY MATERIALS ================= -->
+	<section class="study-materials-section" id="study-materials">
+
+	    <div class="section-title">
+	        <p>STUDY MATERIALS</p>
+	        <h2>Learn & <span>Practice</span></h2>
+	    </div>
+
+	    <div class="study-materials-container">
+
+	        <div class="study-category">
+	            <h3>📘 Mathematics</h3>
+	            <p>Class 8 to Class 10 Mathematics study materials</p>
+
+	            <div class="study-grid">
+
+	                <!-- Class 10 Mathematics -->
+	                <div class="study-card">
+	                    <h4>Class 10 Mathematics</h4>
+	                    <p>Part 1 — English</p>
+
+	                    <a href="study-materials/class10-maths-part1-english.pdf"
+	                       target="_blank">
+	                        View PDF
+	                    </a>
+
+	                    <a href="study-materials/class10-maths-part1-english.pdf"
+	                       download>
+	                        Download PDF
+	                    </a>
+	                </div>
+
+	                <div class="study-card">
+	                    <h4>Class 10 Mathematics</h4>
+	                    <p>Part 2 — English</p>
+
+	                    <a href="study-materials/class10-maths-part2-english.pdf"
+	                       target="_blank">
+	                        View PDF
+	                    </a>
+
+	                    <a href="study-materials/class10-maths-part2-english.pdf"
+	                       download>
+	                        Download PDF
+	                    </a>
+	                </div>
+
+	                <div class="study-card">
+	                    <h4>Class 10 Mathematics</h4>
+	                    <p>Part 1 — Kannada</p>
+
+	                    <a href="study-materials/class10-maths-part1-kannada.pdf"
+	                       target="_blank">
+	                        View PDF
+	                    </a>
+
+	                    <a href="study-materials/class10-maths-part1-kannada.pdf"
+	                       download>
+	                        Download PDF
+	                    </a>
+	                </div>
+
+	                <div class="study-card">
+	                    <h4>Class 10 Mathematics</h4>
+	                    <p>Part 2 — Kannada</p>
+
+	                    <a href="study-materials/class10-maths-part2-kannada.pdf"
+	                       target="_blank">
+	                        View PDF
+	                    </a>
+
+	                    <a href="study-materials/class10-maths-part2-kannada.pdf"
+	                       download>
+	                        Download PDF
+	                    </a>
+	                </div>
+
+	                <!-- Class 9 Mathematics -->
+	                <div class="study-card">
+	                    <h4>Class 9 Mathematics</h4>
+	                    <p>Part 1 — Kannada</p>
+
+	                    <a href="study-materials/class9-maths-part1-kannada.pdf"
+	                       target="_blank">
+	                        View PDF
+	                    </a>
+
+	                    <a href="study-materials/class9-maths-part1-kannada.pdf"
+	                       download>
+	                        Download PDF
+	                    </a>
+	                </div>
+
+	                <div class="study-card">
+	                    <h4>Class 9 Mathematics</h4>
+	                    <p>Part 2 — Kannada</p>
+
+	                    <a href="study-materials/class9-maths-part2-kannada.pdf"
+	                       target="_blank">
+	                        View PDF
+	                    </a>
+
+	                    <a href="study-materials/class9-maths-part2-kannada.pdf"
+	                       download>
+	                        Download PDF
+	                    </a>
+	                </div>
+
+	                <!-- Class 8 Mathematics -->
+	                <div class="study-card">
+	                    <h4>Class 8 Mathematics</h4>
+	                    <p>Part 1 — Kannada</p>
+
+	                    <a href="study-materials/class8-maths-part1-kannada.pdf"
+	                       target="_blank">
+	                        View PDF
+	                    </a>
+
+	                    <a href="study-materials/class8-maths-part1-kannada.pdf"
+	                       download>
+	                        Download PDF
+	                    </a>
+	                </div>
+
+	            </div>
+	        </div>
+			<!-- ================= SCIENCE ================= -->
+
+			<div class="study-category">
+
+			    <h3>🔬 Science</h3>
+			    <p>Class 10 Science study materials — Physics, Chemistry & Biology</p>
+
+			    <div class="study-grid">
+
+			        <!-- Physics English -->
+			        <div class="study-card">
+			            <h4>Class 10 Science</h4>
+			            <p>Physics — English</p>
+
+			            <a href="study-materials/class10-science-physics-english.pdf"
+			               target="_blank">
+			                View PDF
+			            </a>
+
+			            <a href="study-materials/class10-science-physics-english.pdf"
+			               download>
+			                Download PDF
+			            </a>
+			        </div>
+
+			        <!-- Chemistry English -->
+			        <div class="study-card">
+			            <h4>Class 10 Science</h4>
+			            <p>Chemistry — English</p>
+
+			            <a href="study-materials/class10-science-chemistry-english.pdf"
+			               target="_blank">
+			                View PDF
+			            </a>
+
+			            <a href="study-materials/class10-science-chemistry-english.pdf"
+			               download>
+			                Download PDF
+			            </a>
+			        </div>
+
+			        <!-- Biology English -->
+			        <div class="study-card">
+			            <h4>Class 10 Science</h4>
+			            <p>Biology — English</p>
+
+			            <a href="study-materials/class10-science-biology-english.pdf"
+			               target="_blank">
+			                View PDF
+			            </a>
+
+			            <a href="study-materials/class10-science-biology-english.pdf"
+			               download>
+			                Download PDF
+			            </a>
+			        </div>
+
+			        <!-- Physics Kannada -->
+			        <div class="study-card">
+			            <h4>Class 10 Science</h4>
+			            <p>Physics — Kannada</p>
+
+			            <a href="study-materials/class10-science-physics-kannada.pdf"
+			               target="_blank">
+			                View PDF
+			            </a>
+
+			            <a href="study-materials/class10-science-physics-kannada.pdf"
+			               download>
+			                Download PDF
+			            </a>
+			        </div>
+
+			        <!-- Chemistry Kannada -->
+			        <div class="study-card">
+			            <h4>Class 10 Science</h4>
+			            <p>Chemistry — Kannada</p>
+
+			            <a href="study-materials/class10-science-chemistry-kannada.pdf"
+			               target="_blank">
+			                View PDF
+			            </a>
+
+			            <a href="study-materials/class10-science-chemistry-kannada.pdf"
+			               download>
+			                Download PDF
+			            </a>
+			        </div>
+
+			        <!-- Biology Kannada -->
+			        <div class="study-card">
+			            <h4>Class 10 Science</h4>
+			            <p>Biology — Kannada</p>
+
+			            <a href="study-materials/class10-science-biology-kannada.pdf"
+			               target="_blank">
+			                View PDF
+			            </a>
+
+			            <a href="study-materials/class10-science-biology-kannada.pdf"
+			               download>
+			                Download PDF
+			            </a>
+			        </div>
+
+			    </div>
+
+			</div>
+
+	    </div>
+
+	</section>
+    <!-- ================= YOUTUBE ================= -->
+    <section class="youtube-section">
+        <div class="youtube-content">
+            <p>WATCH & LEARN</p>
+
+            <h2>Learn with Kalarava</h2>
+
+            <p>
+                Visit our YouTube channel for educational videos
+                and learning content.
+            </p>
+
+            <a
+                href="https://youtube.com/@kalaravatutorialschitradurga"
+                target="_blank"
+                class="youtube-button">
+                ▶ Visit YouTube Channel
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact" id="contact">
+        <div class="section-title">
+            <p>GET IN TOUCH</p>
+            <h2>Start Your Learning <span>Journey</span></h2>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <h3>Contact Kalarava</h3>
+
+                <p>
+                    Admissions are open for the 2026–27 programs.
+                    Contact Kalarava Tutorials for course details.
+                </p>
+
+                <div class="contact-item">
+                    <span>📧</span>
+                    <div>
+                        <h4>Email</h4>
+						<a href="mailto:kalaravatutorials@gmail.com">
+						    kalaravatutorials@gmail.com
+						</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>📍</span>
+                    <div>
+                        <h4>Address</h4>
+                        <p>
+                            First Floor, Chakravarthy Complex,<br>
+                            1st Cross, Budha Nagara,<br>
+                            Stadium Road, Chitradurga
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>📞</span>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>
+							
+							    <a href="tel:8310071769">8310071769</a><br>
+							    <a href="tel:8050969030">8050969030</a><br>
+							    <a href="tel:6361063257">6361063257</a>
+							</p>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>🎓</span>
+                    <div>
+                        <h4>Programs</h4>
+                        <p>
+                            Classes 1–10, SSLC Support &
+                            Competitive Exam Coaching
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- CONTACT FORM -->
+            <div class="contact-form">
+                <h3>Admission Enquiry</h3>
+
+                				<form onsubmit="submitForm(event)">
+
+				    <input
+				        type="text"
+				        name="studentName"
+				        placeholder="Student Name"
+				        required>
+
+				    <input
+				        type="text"
+				        name="parentName"
+				        placeholder="Parent Name"
+				        required>
+
+				    <input
+				        type="tel"
+				        name="phone"
+				        placeholder="Phone Number"
+				        required>
+
+				    <select name="program" required>
+				        <option value="">Select Program</option>
+				        <option value="1st - 9th Class Regular Tuition">
+				            1st - 9th Class Regular Tuition
+				        </option>
+				        <option value="10th Class Regular Tuition">
+				            10th Class Regular Tuition
+				        </option>
+				        <option value="Navodaya / Sainik / Murarji Coaching">
+				            Navodaya / Sainik / Murarji Coaching
+				        </option>
+				        <option value="SSLC Repeat Student Support">
+				            SSLC Repeat Student Support
+				        </option>
+				    </select>
+
+				    <textarea
+				        name="message"
+				        placeholder="Message"
+				        rows="4"></textarea>
+
+				    <button type="submit">
+				        Submit Enquiry
+				    </button>
+
+				</form>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-content">
+
+            <div>
+                <h2>KALARAVA</h2>
+                <p>Quality Education. Better Future.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#classes">Programs</a>
+                <a href="#results">Results</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div>
+                <a
+                    href="https://youtube.com/@kalaravatutorialschitradurga"
+                    target="_blank"
+                    class="footer-youtube">
+                    ▶ YouTube
+                </a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 Kalarava Tutorials. All Rights Reserved.
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+<!-- ================= COURSE DETAILS MODAL ================= -->
+
+<div id="courseModal" class="course-modal">
+
+    <div class="course-modal-box">
+
+        <button class="modal-close" onclick="closeModal()">
+            &times;
+        </button>
+
+        <h2 id="modalTitle"></h2>
+
+        <div id="modalContent"></div>
+
+        <a href="#contact"
+           class="primary-button modal-enquiry"
+           onclick="closeModal()">
+            Enquire Now
+        </a>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
