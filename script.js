@@ -169,13 +169,10 @@ async function submitForm(event) {
 
     try {
 
-        const response = await fetch("https://script.google.com/macros/s/AKfycbybTIen6NRiS1EDlp3kQ4jD9oJb4DVeKjBqIvWeIuiKQGifb_i_ket6CXU0xrbJ1KE/exec", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(enquiry)
-        });
+       const response = await fetch("https://script.google.com/macros/s/AKfycbybTIen6NRiS1EDlp3kQ4jD9oJb4DVeKjBqIvWeIuiKQGifb_i_ket6CXU0xrbJ1KE/exec", {
+    method: "POST",
+    body: JSON.stringify(enquiry)
+});
 
         if (response.ok) {
 
