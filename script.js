@@ -202,26 +202,4 @@ async function submitForm(event) {
 
 
 
- // MOBILE HAMBURGER MENU
-const menuToggle = document.getElementById("menuToggle");
-const navigation = document.querySelector("nav");
-
-if (menuToggle && navigation) {
-    menuToggle.addEventListener("click", function () {
-        const isOpen = navigation.style.display === "flex";
-
-        navigation.style.display = isOpen ? "none" : "flex";
-        menuToggle.textContent = isOpen ? "☰" : "×";
-        menuToggle.setAttribute("aria-expanded", String(!isOpen));
-    });
-
-    navigation.querySelectorAll("a").forEach(function (link) {
-        link.addEventListener("click", function () {
-            if (window.innerWidth <= 900) {
-                navigation.style.display = "none";
-                menuToggle.textContent = "☰";
-                menuToggle.setAttribute("aria-expanded", "false");
-            }
-        });
-    });
-}
+ 
