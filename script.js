@@ -169,7 +169,7 @@ async function submitForm(event) {
 
     try {
 
-        const response = await fetch("http://localhost:8080/api/enquiries", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbyyAspni0CElC_VoRXxETzRwBui1E5cALpK14bxU3lYZsHwrZ_RogB4vWXgF1AKnw/exec", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
