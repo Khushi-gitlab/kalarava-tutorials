@@ -1960,3 +1960,13 @@ footer {
         background: white;
     }
 }
+
+@media (max-width: 900px) {
+    button.menu-toggle {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: relative;
+        z-index: 1000;
+    }
+}
