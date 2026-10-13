@@ -1934,7 +1934,7 @@ footer {
     }
 }
 
-```css
+
 /* MOBILE MENU BUTTON */
 .menu-toggle {
     display: none;
@@ -1944,4 +1944,19 @@ footer {
     color: #e84a20;
     cursor: pointer;
 }
-```
+
+
+
+
+/* MOBILE MENU OPEN STATE */
+@media (max-width: 900px) {
+    nav.menu-open {
+        display: flex !important;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+        width: 100%;
+        padding: 15px;
+        background: white;
+    }
+}
