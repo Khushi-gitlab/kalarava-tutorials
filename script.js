@@ -201,5 +201,31 @@ async function submitForm(event) {
 }
 
 
+/* MOBILE HAMBURGER MENU */
+const menuToggle = document.getElementById("menuToggle");
+const navigation = document.querySelector("nav");
+
+if (menuToggle && navigation) {
+    menuToggle.addEventListener("click", function () {
+        const isOpen = navigation.classList.contains("menu-open");
+
+        navigation.classList.toggle("menu-open", !isOpen);
+        menuToggle.textContent = isOpen ? "☰" : "×";
+        menuToggle.setAttribute("aria-expanded", String(!isOpen));
+    });
+
+    navigation.querySelectorAll("a").forEach(function (link) {
+        link.addEventListener("click", function () {
+            if (window.innerWidth <= 900) {
+                navigation.classList.remove("menu-open");
+                menuToggle.textContent = "☰";
+                menuToggle.setAttribute("aria-expanded", "false");
+            }
+        });
+    });
+}
+
+
+
 
  
