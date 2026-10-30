@@ -1970,3 +1970,8 @@ footer {
         z-index: 1000;
     }
 }
+
+/* Move visitor counter slightly upward */
+iframe[src*="stats4u"] {
+    bottom: 25px !important;
+}
